@@ -1,0 +1,22 @@
+#container{
+width: 100%;
+display: flex;
+justify-content:  space-evenly;
+min-width: 320px;
+}
+
+div>*{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+}
+
+@media (max-width:800px){
+    #container{
+        flex-wrap: wrap;
+    }
+    #container > div{
+        width: 50%;
+        margin: 10px 25%;
+    }
+}

@@ -1,0 +1,37 @@
+form{
+    width: 400px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+form > * {
+display: block;
+width: 100%;
+box-sizing: border-box;
+}
+label {
+    margin-bottom: 5px;
+    font-size: 1.25rem;
+}
+
+select , input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid lightslategray;
+    margin-bottom: 20px;
+}
+
+input[type="submit"]{
+    background-color: cadetblue;
+    color: white;
+    font-weight: bold;
+}
+
+input:focus{
+    outline: 0;
+}
